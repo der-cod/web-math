@@ -115,7 +115,7 @@ footer{text-align:center;color:var(--mu);font-size:.8rem;padding:24px 18px}
 /* ===== KONFIGURASI (ubah di sini) ===== */
 const CFG={
  variant:'harga-49', price:49000,
- link:'http://lynk.id/botplc/dy01gxjg9343/checkout',   // contoh: https://lynk.id/namaanda/matematika-sd-49
+ link:'http://lynk.id/botplc/zk7575vj1knv/checkout',   // contoh: https://lynk.id/namaanda/matematika-sd-49
  metaPixel:'',                                 // isi ID Meta Pixel jika dipakai
  kontak:'',                                    // contoh: https://wa.me/62812xxxxxxx (opsional)
  testimoni:[]                                  // isi testimoni ASLI: [{nama:'Bunda Rina, Padang',teks:'...'}]
@@ -125,7 +125,7 @@ if(CFG.metaPixel){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.
 /* TikTok Pixel: tempel kode dari TikTok Ads Manager di sini (opsional) */
 document.querySelectorAll('[data-buy]').forEach(b=>b.addEventListener('click',()=>{
  try{window.fbq&&fbq('track','InitiateCheckout',{value:CFG.price,currency:'IDR',content_name:CFG.variant});window.ttq&&ttq.track('ClickButton')}catch(e){}
- if(CFG.link.indexOf('GANTI')===0){alert('Link pembelian belum diisi. Buka file ini dan ubah CFG.link di bagian KONFIGURASI.');return}
+ if(CFG.link.indexOf('http://lynk.id/botplc/zk7575vj1knv/checkout')===0){alert('Link pembelian belum diisi. Buka file ini dan ubah CFG.link di bagian KONFIGURASI.');return}
  const u=CFG.link+(CFG.link.indexOf('?')>0?'&':'?')+'utm_source=landing&utm_content='+CFG.variant;location.href=u}));
 /* bar bawah muncul setelah melewati harga atas */
 const sb=document.getElementById('sb'),ha=document.getElementById('hargaAtas');
