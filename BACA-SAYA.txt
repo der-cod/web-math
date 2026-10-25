@@ -1,0 +1,28 @@
+HALAMAN PENJUALAN 3 VARIAN HARGA (Rp49.000 / Rp129.000 / Rp159.000)
+
+ISI
+  harga-49.html, harga-129.html, harga-159.html  -> tiga halaman, isinya sama, hanya harga yang beda
+  index.html                                      -> pengacak: mengarahkan pengunjung ke salah satu harga (opsional)
+  img/                                            -> gambar (jangan dipisah dari file html)
+
+LANGKAH PASANG
+  1. Buat 3 produk di lynk.id dengan harga masing-masing (49.000 / 129.000 / 159.000).
+  2. Buka tiap file html dengan editor teks. Cari "KONFIGURASI" dan isi:
+       link      -> link produk lynk.id yang sesuai harga halaman itu
+       metaPixel -> ID Meta Pixel (opsional, untuk mengukur klik beli dari iklan)
+       kontak    -> link WhatsApp (opsional)
+       testimoni -> isi HANYA dengan testimoni asli dari pembeli
+  3. Upload semua isi folder ke hosting statis (Netlify, Vercel, Cloudflare Pages, GitHub Pages).
+  4. Selama link belum diisi, tombol beli menampilkan peringatan (supaya tidak salah tayang).
+
+CARA UJI HARGA
+  - Iklan berbayar: buat 3 ad set dengan audiens, anggaran, dan materi iklan yang sama; tiap ad set
+    mengarah ke satu URL (harga-49 / harga-129 / harga-159).
+  - Link di bio / grup: pakai index.html (pengunjung diacak, dan pengunjung yang sama selalu mendapat harga yang sama).
+  - Bandingkan: pembeli per klik DAN laba per pembeli (harga dikurangi biaya iklan dan potongan platform),
+    bukan jumlah penjualan saja.
+  - Biarkan berjalan sampai tiap varian punya cukup klik (idealnya ribuan, minimal ratusan) sebelum memutuskan.
+
+CATATAN ISI
+  - Halaman menyatakan "tanpa biaya langganan bulanan". Ubah teks itu jika model jualan Anda berbeda.
+  - Jangan menambah diskon, batas waktu, atau stok terbatas yang tidak benar. Meta dan TikTok dapat menolak iklan seperti itu.
